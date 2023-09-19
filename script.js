@@ -21,7 +21,7 @@ function showSlides() {
   dots[slideIndex].classList.add("active");
 
   // Repeat the function every 3 seconds
-  setTimeout(showSlides, 10000);
+  setTimeout(showSlides, 3000);
 }
 
 // Call the function to start the slideshow
